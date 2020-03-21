@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      "customform@0.1.2",
+      "E:\\project\\pom_could_new\\pom_cloud_user"
+    ]
+  ],
+  "_from": "customform@0.1.2",
+  "_id": "customform@0.1.2",
+  "_inBundle": false,
+  "_integrity": "sha512-+1/Ryr4M1VKcSQR+BQrmom+uGFwVrJqermzDqq3xjCw9lgXDk8gVXp6uWA520il2ovgX4Y8Sa5lySbeQL2b8kw==",
+  "_location": "/customform",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "customform@0.1.2",
+    "name": "customform",
+    "escapedName": "customform",
+    "rawSpec": "0.1.2",
+    "saveSpec": null,
+    "fetchSpec": "0.1.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://192.168.31.10:8081/repository/npm-group/customform/-/customform-0.1.2.tgz",
+  "_spec": "0.1.2",
+  "_where": "E:\\project\\pom_could_new\\pom_cloud_user",
+  "author": {
+    "name": "xyy"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bpmn-js": "^5.1.1",
+    "bpmn-js-properties-panel": "^0.32.2",
+    "debounce": "^1.2.0",
+    "echarts": "^4.1.0",
+    "element-ui": "^2.10.1",
+    "font-awesome": "^4.7.0",
+    "js-md5": "^0.7.3",
+    "mavon-editor": "^2.6.17",
+    "particles.js": "^2.0.0",
+    "prettier": "^1.12.1",
+    "qrcode.vue": "^1.6.1",
+    "qs": "^6.5.2",
+    "socket.io": "^2.2.0",
+    "sortablejs": "^1.10.0-rc3",
+    "undefined": "^0.1.0",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vue-socket.io": "^2.1.1-b",
+    "vue-ueditor-wrap": "^2.4.1",
+    "vuedraggable": "^2.23.2",
+    "vuex": "^3.0.1",
+    "wangeditor": "^3.1.1"
+  },
+  "description": "基于 Vue以及element 的自定义表单",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.0",
+    "@vue/cli-plugin-eslint": "^3.0.0",
+    "@vue/cli-service": "^3.0.0",
+    "@vue/eslint-config-standard": "^3.0.0",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "vue-cli-plugin-element": "^1.0.0",
+    "vue-loader": "^15.7.1",
+    "vue-particles": "^1.0.9",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.17.1"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "@vue/standard"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "keyword": "customform test customform",
+  "main": "lib/customform.umd.min.js",
+  "name": "customform",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "private": false,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name customform --dest lib ./src/components/index.js",
+    "lint": "vue-cli-service lint",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.23"
+}
